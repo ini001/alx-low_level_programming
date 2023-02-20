@@ -16,6 +16,6 @@ int main(void)
 	}
 	printf('/n');
 
-	retuen (0);
+	return (0);
 }
 
