@@ -15,3 +15,7 @@ int main(void)
 		printf("%d", i);
 	}
 	printf('/n');
+
+	retuen (0);
+}
+
