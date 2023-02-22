@@ -15,7 +15,7 @@ int main(void)
 		{
 			sum += i;
 		}
-		putchar('0' + sum)
+		putchar('0' + sum);
 	}
 	return (0);
 }
