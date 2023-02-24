@@ -1,15 +1,23 @@
 #include "main.h"
+
 /**
- * mul -  checks for checks for a digit (0 through 9).
- * @a: a -  Variable
- * @b: b - variable
+ * print_most_numbers -  checks for checks for a digit (0 through 9).
+ *
  * Return: Always 0.
  */
-int mul(int a, int b)
+void print_most_numbers(void)
 {
-	int mul;
+	int c;
 
-	mul = a * b;
-
-	return (mul);
+	for (c = 48; c < 58; c++)
+	{
+		if (c != 50)
+		{
+			if (c != 52)
+			{
+				_putchar(c);
+			}
+		}
+	}
+	_putchar('\n');
 }
